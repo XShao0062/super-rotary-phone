@@ -41,9 +41,9 @@ def coorcal_parser():
         The parser for cli_coordinate_calculator.
     """
     parser = argparse.ArgumentParser(prog='cli_coordinate_calculator', prefix_chars='-')
-    parser.add_argument('--ra', dest = 'ra', type=float, default=None,
+    parser.add_argument('--ra', dest = 'ra', type=str, default=None,
                         help="Central ra (degrees) for the simulation location")
-    parser.add_argument('--dec', dest = 'dec', type=float, default=None,
+    parser.add_argument('--dec', dest = 'dec', type=str, default=None,
                         help="Central dec (degrees) for the simulation location")
     return parser
 
