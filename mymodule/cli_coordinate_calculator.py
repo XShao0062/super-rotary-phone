@@ -1,3 +1,6 @@
+"""
+This module is to transfer coordinates of sources with hms or dms unit to degree.
+"""
 # The input should be in three formats, namely, '12h20m30s' or '12:20:30' or '12 20 30'
 # All formats are should be the string type 
 from astropy.coordinates import Angle
@@ -8,14 +11,16 @@ from astropy import units as u
 
 import argparse
 
-#
+# when just run `python3 mymodule/cli_coordinate_calculator`, 
+# there would be a reminder for user to type in the right formats.
 def get_user_input():
     """
     Manually input ra and dec
 
     Return 
     -------
-    ra dec
+    ra 
+    dec
     """
     #ra_0 = '12h20m30.5s'
     #dec_0 = '12d16m45.3s'
@@ -24,8 +29,14 @@ def get_user_input():
     ra, dec = reminder.split('/')
     return ra, dec
 
-
+# Use module Angle from astropy.coordinates to do the calculation. 
 def degree_cal(ra = '12h20m30.5s', dec = '12d16m45.3s'):
+    """
+    Parameters
+    ------
+    ra : string
+    dec : string
+    """
     # just move the default value to the above
     #ra = '12h20m30.5s' #no matter ra 
     #dec = '12d16m45.3s'
