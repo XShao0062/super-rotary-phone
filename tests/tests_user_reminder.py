@@ -9,10 +9,9 @@ from astropy.coordinates import Angle
    #     raise AssertionError("Failed to import mymodule")
    # return
 
-
+from mymodule.cli_coordinate_calculator import get_user_input
 
 def test_get_user_input():
-    from mymodule import cli_coordinate_calculator
 
     if len(reminder) > 8:
         pattern = r'(\d+h\d+m\d+s/\d+d\d+m\d+\.\d+s)'
@@ -24,10 +23,10 @@ def test_get_user_input():
 
     assert match_count == 1
 
+from mymodule.cli_coordinate_calculator import degree_cal
 
 def test_degree_cal():
 # Test cases
-    from mymodule import cli_coordinate_calculator
     test_cases = [
         {'input_ra': '12h2m30.5s', 'input_dec': '12d20m30.3s', 'expected_ra': 180.6270833333333, 'expected_dec': 12.341750000000001},
         # Add more test cases as needed
