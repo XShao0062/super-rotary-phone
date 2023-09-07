@@ -16,9 +16,12 @@ Example to run this script at command line and the output:
 ## citation
 This work is based on as Astropy package.
 
-Titile: "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package"
+Titile: 
 
-DOI: 10.3847/1538-4357/ac7c74 
+"The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package"
+
+DOI: 
+     10.3847/1538-4357/ac7c74 
 
      10.48550/arXiv.2206.14220 
 
