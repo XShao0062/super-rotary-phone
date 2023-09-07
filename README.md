@@ -1,7 +1,8 @@
 # super-rotary-phone
-This script is to put in different ways of the positions (ra, dec), such as in the unit of degree; ra in the unit of hhmmss, dec in the unit of ddmmss; and in the unit of radian; even put in a standard optical image, this script can output the position information in units of degree and hhmmss, ddmmss, respectively.
+This script is to transfer ra and dec in units of hms and dms, respectively to that in units of degree. 
+
+Users could input `ra` with formats of `12h20m30.5s` or `12:20:30.5` or `12 30 30.5`, `dec` with the formats of  `12d20m30.5s` or `12:20:30.5` or `12 30 30.5`. It's not that `ra` and `dec` could be input with different formats simultanously, e.g. `--ra 12h20m30.5s --dec 12 20 30.5`, for each examples mentiond above, the output would be 
+
 
 Before input coordinate, choose the type you'd like to put in 
 ## input single source
-
-## input source list
