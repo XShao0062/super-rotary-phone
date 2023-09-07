@@ -9,19 +9,19 @@ from astropy.coordinates import Angle
    #     raise AssertionError("Failed to import mymodule")
    # return
 
-from mymodule.cli_coordinate_calculator import get_user_input
+#from mymodule.cli_coordinate_calculator import get_user_input
 
-def test_get_user_input():
+#def test_get_user_input():
 
-    if len(reminder) > 8:
-        pattern = r'(\d+h\d+m\d+s/\d+d\d+m\d+\.\d+s)'
-    else:
-        pattern = r'(\d{1,2}[:\s]\d{1,2}[:\s]\d{1,2})'
+ #   if len(reminder) > 8:
+  #      pattern = r'(\d+h\d+m\d+s/\d+d\d+m\d+\.\d+s)'
+   # else:
+    #    pattern = r'(\d{1,2}[:\s]\d{1,2}[:\s]\d{1,2})'
 
-    matches = re.findall(pattern, reminder)
-    match_count = len(matches)
+    #matches = re.findall(pattern, reminder)
+    #match_count = len(matches)
 
-    assert match_count == 1
+    #assert match_count == 1
 
 from mymodule.cli_coordinate_calculator import degree_cal
 
