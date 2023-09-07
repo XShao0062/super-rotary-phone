@@ -10,6 +10,13 @@ import argparse
 
 #
 def get_user_input():
+    """
+    Manually input ra and dec
+
+    Return 
+    -------
+    user_input: ra dec
+    """
     #ra_0 = '12h20m30.5s'
     #dec_0 = '12d16m45.3s'
     # remind and split ra and dec as well if in the form of '12h20m30s/12d20m30.3s'
