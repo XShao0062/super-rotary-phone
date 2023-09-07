@@ -6,10 +6,12 @@ For each examples mentiond above, the output would begin with `Your expected coo
 
 # Examples to use
 Example to run this script at command line and the output: 
-1. `$  python3 mymodule/cli_coordinate_calculator.py --ra '12h20m30.5s' --dec '- 12:20:30.5'`
-   `Your expected coordinate in degrees: (185.12708333333333, -12.341805555555556)`
-3. `$ python3 mymodule/cli_coordinate_calculator.py --ra '- 12:20:30.5' --dec '- 12 20 30.5'`
-   `Your expected coordinate in degrees: (-185.12708333333333, -12.341805555555556)`
+1. Input: `$  python3 mymodule/cli_coordinate_calculator.py --ra '12h20m30.5s' --dec '- 12:20:30.5'`
+   
+   Output: `Your expected coordinate in degrees: (185.12708333333333, -12.341805555555556)`
+2. Input: `$ python3 mymodule/cli_coordinate_calculator.py --ra '- 12:20:30.5' --dec '- 12 20 30.5'`
+
+   Output: `Your expected coordinate in degrees: (-185.12708333333333, -12.341805555555556)`
 
 
 
