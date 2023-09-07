@@ -15,7 +15,7 @@ def get_user_input():
 
     Return 
     -------
-    user_input: ra dec
+    ra dec
     """
     #ra_0 = '12h20m30.5s'
     #dec_0 = '12d16m45.3s'
