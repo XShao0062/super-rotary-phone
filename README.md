@@ -14,7 +14,7 @@ Example to run this script at command line and the output:
    Output: `Your expected coordinate in degrees: (-185.12708333333333, -12.341805555555556)`
 
 ## Installing
-Use `pip install ` or download and `pip install`
+Use `pip install git@github.com:XShao0062/super-rotary-phone.git` or download and run `pip install`
 
 ## citation
 This work is based on as Astropy package (arXiv: arXiv:2206.14220, DOI: 10.3847/1538-4357/ac7c74).
