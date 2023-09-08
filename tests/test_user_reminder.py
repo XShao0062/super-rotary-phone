@@ -22,7 +22,6 @@ from astropy.coordinates import Angle
     #match_count = len(matches)
 
     #assert match_count == 1
-
 from mymodule.cli_coordinate_calculator import degree_cal
 
 def test_degree_cal():
