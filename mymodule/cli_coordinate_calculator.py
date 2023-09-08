@@ -63,6 +63,8 @@ def coorcal_parser():
                         help="Central ra (degrees) for the simulation location")
     parser.add_argument('--dec', dest = 'dec', type=str, default=None,
                         help="Central dec (degrees) for the simulation location")
+    parser.add_argument('--cite', action='store_true',
+                        help="How to cite this work")
     return parser
 
 
@@ -75,6 +77,9 @@ if __name__ == "__main__":
     else:
         ra = options.ra
         dec = options.dec
-    
+
+if options.cite:
+    print("If you feel this work is useful, please cite @ https://github.com/XShao0062/super-rotary-phone.git")
+else:
     calculated_coord = degree_cal(ra, dec)
     print("Your expected coordinate in degrees:", calculated_coord)
