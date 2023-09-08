@@ -14,16 +14,9 @@ Example to run this script at command line and the output:
    Output: `Your expected coordinate in degrees: (-185.12708333333333, -12.341805555555556)`
 
 ## citation
-This work is based on as Astropy package.
+This work is based on as Astropy package (arXiv: arXiv:2206.14220, DOI: 10.3847/1538-4357/ac7c74).
 
-Titile: 
+If you feel this work is useful, please cite `@ https://github.com/XShao0062/super-rotary-phone.git`
 
-"The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package"
-
-DOI: 
-     10.3847/1538-4357/ac7c74 
-
-     10.48550/arXiv.2206.14220 
-
-arXiv: arXiv:2206.14220 
+ 
 
