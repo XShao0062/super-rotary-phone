@@ -78,8 +78,8 @@ if __name__ == "__main__":
         ra = options.ra
         dec = options.dec
 
-if options.cite:
-    print("If you feel this work is useful, please cite @ https://github.com/XShao0062/super-rotary-phone.git")
-else:
-    calculated_coord = degree_cal(ra, dec)
-    print("Your expected coordinate in degrees:", calculated_coord)
+    if options.cite:
+        print("If you feel this work is useful, please cite @ https://github.com/XShao0062/super-rotary-phone.git")
+    else:
+        calculated_coord = degree_cal(ra, dec)
+        print("Your expected coordinate in degrees:", calculated_coord)
